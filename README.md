@@ -8,9 +8,7 @@
 * 3. FirebaseInstanceIDService와 FirebaseMessagingService를 상속받는 클래스 생성
 * 4. 생성한 각 클래스에 onTokenRefresh()와 onMessageReiceved() 오버라이딩
 * 5. 
-  * 5-1. manifest.xml에서 퍼미션 추가
-  ``` <uses-permission android:name="android.permission.INTERNET"/>
-  ```
+  * 5-1. manifest.xml에서 인터넷 퍼미션 추가
   * 5-2. <application> 태그안에 useCleartextTraffic=true 지정
   * 5-3. <application> 태그안에 <service> 태그 추가
     ```
