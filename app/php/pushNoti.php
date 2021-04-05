@@ -9,8 +9,7 @@
 			'data' => $message
 			);
 	$headers = array(
-			'Authorization:key = 
-				AAAA5UiwYdQ:APA91bEI8qsHmGNHH59FWdz1jtOVVqrlXKidn8SrWpxMWEizeE7VppLi6qBcs3hwxohhwPm3aWB8t-_StlzGgi4G0-8wTfRCpsN_Hdn9XnoWTw_5CAbsF-8HZQvuDfhHZwoQJ64Gs2NH',
+			'Authorization:key = 클라우드 메시징 서버키 입력부분',
 			'Content-Type: application/json'
 			);
 		
@@ -33,7 +32,7 @@
 		return $result;
 	}
 	
- 	$conn=mysqli_connect("localhost","whi2020","h20151616!","whi2020");
+ 	$conn=mysqli_connect("localhost","서버아이디","비번","서");
 	mysqli_query($conn,'SET NAMES utf8');
 	$msg="12312536135";
 	$title="123";
